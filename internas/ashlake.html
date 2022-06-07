@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Dark Souls Enciclopédia</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Enciclopédia Dark Souls">
+    <meta name="keywords" content="dark, souls, wiki, enciclopédia, enciclopedia">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="shortcut icon" href="../imagens/icone_aba.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="../plugins/jquery.bxslider.css">
+    <script src="../plugins/jquery.min.js"></script>
+    <script src="../plugins/jquery.bxslider.min.js"></script>
+
+    <script>
+        // PAINEL SLIDE
+        $(document).ready(function () {
+            $('.slider').bxSlider({
+                mode: 'horizontal',
+                captions: true,
+                // slideWidth: 600,
+                auto: true,
+                pager: false,
+                // speed: 100
+                // controls: true
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <header id="cabecalho">
+        <div class="container">
+            <img src="../imagens/dark_souls_logo.png" id="icone">
+            <nav id="menu">
+                <ul>
+                    <li><a href="../index.html">Início</a></li>
+                    <li><a href="#">Personagens</a>
+                        <ul>
+                            <li><a href="../internas/solaire.html">Solaire</a></li>
+                            <li><a href="../internas/ornstein.html">Ornstein</a></li>
+                            <li><a href="../internas/gwyn.html">Gwyn</a></li>
+                        </ul>
+                    </li>
+
+                    <li><a href="#">Locais</a>
+                        <ul>
+                            <li><a href="../internas/anorlondo.html">Anor Londo</a></li>
+                            <li><a href="../internas/firelink.html">Fire Link</a></li>
+                            <li><a href="#">Ash Lake</a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="banners">
+        <div class="container">
+            <h1>Ash Lake</h1>
+            <ul class="slider">
+                <li><img src="../imagens/16-9/ashlake.png"></li> <!-- title="" -->
+                <li><img src="../imagens/16-9/ashlake2.png"></li>
+                <li><img src="../imagens/16-9/ashlake3.png"></li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="conteudo_1">
+        <div class="container">
+            <p>Encontrado na base de The Great Hollow, Ash Lake é o ponto geograficamente mais baixo de Lordran, embora possivelmente seja apenas uma jornada metafórica.
+            Este trecho interminável de água sem fundo, arcos e curiosos feixes de luz é uma costa repleta de cinzas que abriga restos de gigantes e uma Hidra ainda nada ao longo de suas margens. No final desta área fica o último dos dragões eternos, o Dragão de Pedra.</p>
+                
+            <p>Na cinemática de abertura há uma cena panorâmica de Ash Lake, e o narrador diz:"Na Era dos Antigos, o mundo era informe, envolto em neblina.
+            Uma terra de penhascos cinzentos, arquipélagos e dragões eternos"</p>
+                
+            <p>"Na Era dos Antigos, o mundo era informe, envolto em neblina.
+            Uma terra de penhascos cinzentos, arquipélagos e dragões eternos".</p>
+                
+            <p>Quando o vídeo mostra um arco, o narrador continua: "Então houve fogo", as cinzas na praia, portanto, podem ser desse fogo.</p>
+                
+            <p>As árvores gigantes em Lordran são descendentes distantes das grandes árvores de pedra. Várias armas foram feitas a partir deles e herdam suas propriedades, como reduzir o dano mágico.</p>
+        </div>
+    </section>
+</body>
+
+</html>

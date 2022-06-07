@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Dark Souls Enciclopédia</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Enciclopédia Dark Souls">
+    <meta name="keywords" content="dark, souls, wiki, enciclopédia, enciclopedia">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="shortcut icon" href="../imagens/icone_aba.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="../plugins/jquery.bxslider.css">
+    <script src="../plugins/jquery.min.js"></script>
+    <script src="../plugins/jquery.bxslider.min.js"></script>
+
+    <script>
+        // PAINEL SLIDE
+        $(document).ready(function () {
+            $('.slider').bxSlider({
+                mode: 'horizontal',
+                // captions: true,
+                // slideWidth: 600,
+                auto: true,
+                pager: false,
+                // speed: 100
+                controls: true
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <header id="cabecalho">
+        <div class="container">
+            <img src="../imagens/dark_souls_logo.png" id="icone">
+            <nav id="menu">
+                <ul>
+                    <li><a href="../index.html">Início</a></li>
+                    <li><a href="#">Personagens</a>
+                        <ul>
+                            <li><a href="../internas/solaire.html">Solaire</a></li>
+                            <li><a href="../internas/ornstein.html">Ornstein</a></li>
+                            <li><a href="../internas/gwyn.html">Gwyn</a></li>
+                        </ul>
+                    </li>
+
+                    <li><a href="#">Locais</a>
+                        <ul>
+                            <li><a href="#">Anor Londo</a></li>
+                            <li><a href="../internas/firelink.html">Fire Link</a></li>
+                            <li><a href="../internas/ashlake.html">Ash Lake</a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="banners">
+        <div class="container">
+            <h1>Anor Londo</h1>
+            <ul class="slider">
+                <li><img src="../imagens/16-9/anorlondo.png"></li> <!-- title="" -->
+                <li><img src="../imagens/16-9/anorlondo2.png"></li>
+                <li><img src="../imagens/16-9/anorlondo3.png"></li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="conteudo_1">
+        <div class="container">
+            <p>O Chosen Undead é encarregado pela serpente primordial Kingseeker Frampt para recuperar o Lordvessel de Gwynevere, Princess of Sunlight. Na agora deserta Anor Londo, apenas um deus permanece na cidade: Dark Sun Gwyndolin, o último nascido de Gwyn. Para enganar o Chosen Undead, ele cria uma ilusão de sua irmã e do sol, fazendo Anor Londo parecer banhado em luz do sol e glória, como já foi. Mas se este véu de engano for levantado, aprenderemos a verdade, que Anor Londo está envolto em escuridão. A verdadeira Gwynevere há muito deixou a cidade com seu futuro marido, Flann, Deus das Chamas.</p>
+
+            <p>Os Darkmoon Blades agora buscam vingança por crimes contra os deuses e operam sob o comando de Gwyndolin. Além disso, como seu nome sugere, Darkmoon Knightess, a Guardiã do Fogo de Anor Londo, é membro dessa aliança. Sob a catedral de Anor Londo, acessível apenas por uma escada mecânica giratória, há um círculo de estátuas feitas em memória de Gwyn e dos cavaleiros que desceram com ele para o Forno. Atrás de sua estátua, há uma tumba secreta e honorária feita para ele, de onde Dark Sun Gwyndolin governa as Blades of the Darkmoon Blades.</p>
+                
+            <p>A capital abandonada ainda preserva alguns pontos interessantes:
+            A grande catedral da cidade era originalmente o castelo de Gwyn, e ainda é guardada por cavaleiros de prata, demônios de asas de morcego e sentinelas gigantes. Na própria catedral, o Matador de Dragões Ornstein e o Carrasco Smough formam a última linha de defesa antes da ilusão da Princesa Gwynevere. The Giant Blacksmith, um amigo de Hawkeye Gough, reside na ala esquerda da catedral.</p>
+        </div>
+    </section>
+</body>
+
+</html>

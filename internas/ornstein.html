@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Dark Souls Enciclopédia</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Enciclopédia Dark Souls">
+    <meta name="keywords" content="dark, souls, wiki, enciclopédia, enciclopedia">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="shortcut icon" href="../imagens/icone_aba.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="../plugins/jquery.bxslider.css">
+    <script src="../plugins/jquery.min.js"></script>
+    <script src="../plugins/jquery.bxslider.min.js"></script>
+
+    <script>
+        // PAINEL SLIDE
+        $(document).ready(function () {
+            $('.slider').bxSlider({
+                mode: 'horizontal',
+                // captions: true,
+                // slideWidth: 600,
+                auto: true,
+                pager: false,
+                // speed: 100
+                // controls: true
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <header id="cabecalho">
+        <div class="container">
+            <img src="../imagens/dark_souls_logo.png" id="icone">
+            <nav id="menu">
+                <ul>
+                    <li><a href="../index.html">Início</a></li>
+                    <li><a href="#">Personagens</a>
+                        <ul>
+                            <li><a href="../internas/solaire.html">Solaire</a></li>
+                            <li><a href="#">Ornstein</a></li>
+                            <li><a href="../internas/gwyn.html">Gwyn</a></li>
+                        </ul>
+                    </li>
+
+                    <li><a href="#">Locais</a>
+                        <ul>
+                            <li><a href="../internas/anorlondo.html">Anor Londo</a></li>
+                            <li><a href="../internas/firelink.html">Fire Link</a></li>
+                            <li><a href="../internas/ashlake.html">Ash Lake</a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="banners">
+        <div class="container">
+            <h1>Ornstein the Dragon Slayer</h1>
+            <ul class="slider">
+                <li><img src="../imagens/16-9/ornstein.png"></li> <!-- title="" -->
+                <li><img src="../imagens/16-9/ornstein2.png"></li>
+                <li><img src="../imagens/16-9/ornstein3.png"></li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="conteudo_1">
+        <div class="container">
+            <p>Acredita-se que Ornstein seja o capitão dos Quatro Cavaleiros de Gwyn.
+            Ele monta guarda na catedral de Anor Londo, ao lado do Carrasco Smough, protegendo a princesa Gwynevere.</p>
+                
+            <p>Lord Gwyn dividiu um pouco de sua Lord Soul e deu a seus quatro cavaleiros mais confiáveis, incluindo Ornstein's Soul. Gwyn também lhes deu anéis especiais; Ornstein recebendo o Anel de Leão.</p>
+                
+            <p>Sua armadura dourada foi feita para se assemelhar a um leão e foi imbuída do poder do relâmpago. Diz-se que sua lança rebocada poderia cortar uma pedra em duas. Depois que os deuses fugiram de Anor Londo, Ornstein guardou sua catedral ao lado do Carrasco Smough.</p>
+                
+            <p>Em algum momento, Ornstein deixou a catedral em busca do Rei Sem Nome. Não está claro como Ornstein sobreviveu à batalha contra o Chosen Undead, mas parece que ele finalmente encontrou seu caminho para Archdragon Peak. No entanto, os resultados de sua busca, bem como o próprio destino de Ornstein, permanecem desconhecidos.</p>
+        </div>
+    </section>
+</body>
+
+</html>

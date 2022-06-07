@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Dark Souls Enciclopédia</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Enciclopédia Dark Souls">
+    <meta name="keywords" content="dark, souls, wiki, enciclopédia, enciclopedia">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="shortcut icon" href="../imagens/icone_aba.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="../plugins/jquery.bxslider.css">
+    <script src="../plugins/jquery.min.js"></script>
+    <script src="../plugins/jquery.bxslider.min.js"></script>
+
+    <script>
+        // PAINEL SLIDE
+        $(document).ready(function () {
+            $('.slider').bxSlider({
+                mode: 'horizontal',
+                captions: true,
+                // slideWidth: 600,
+                auto: true,
+                pager: false,
+                // speed: 100
+                // controls: true
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <header id="cabecalho">
+        <div class="container">
+            <img src="../imagens/dark_souls_logo.png" id="icone">
+            <nav id="menu">
+                <ul>
+                    <li><a href="../index.html">Início</a></li>
+                    <li><a href="#">Personagens</a>
+                        <ul>
+                            <li><a href="../internas/solaire.html">Solaire</a></li>
+                            <li><a href="../internas/ornstein.html">Ornstein</a></li>
+                            <li><a href="../internas/gwyn.html">Gwyn</a></li>
+                        </ul>
+                    </li>
+
+                    <li><a href="#">Locais</a>
+                        <ul>
+                            <li><a href="../internas/anorlondo.html">Anor Londo</a></li>
+                            <li><a href="#">Fire Link</a></li>
+                            <li><a href="../internas/ashlake.html">Ash Lake</a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="banners">
+        <div class="container">
+            <h1>Fire Link</h1>
+            <ul class="slider">
+                <li><img src="../imagens/16-9/firelink.png"></li> <!-- title="" -->
+                <li><img src="../imagens/16-9/firelink2.png"></li>
+                <li><img src="../imagens/16-9/firelink3.png"></li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="conteudo_1">
+        <div class="container">
+            <p>O Santuário construído sobre o local de descanso final de Gwyn e o Forno da Primeira Chama. Esta pequena área abriga um complexo semelhante a uma capela, um cemitério, o elevador para a Undead Parish e um poço.</p>
+            <p>Depois de ser deixado por um corvo gigante, o Chosen Undead encontra o Crestfallen Warrior, Petrus de Thorolund e Anastacia de Astora. Mais personagens entram e saem deste hub mais tarde.</p>
+        </div>
+    </section>
+</body>
+
+</html>

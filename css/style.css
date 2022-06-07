@@ -1,0 +1,178 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-1: #fff;
+    --color-2: #000;
+    --color-3: #0c0b49;
+    --color-4: rgba(0, 0, 0, 0.95);
+    --color-5: rgba(37, 37, 37, 0.85);
+    --color-6: rgba(201, 201, 201, 0.85);
+    --color-7: rgba(0, 0, 0, 0.85);
+    --color-8: rgba(0, 0, 0, 0.65);
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+body {
+    background-image: url(../imagens/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Dark;
+}
+
+@font-face {
+    font-family: 'Dark';
+    src: url(/fonte/OptimusPrinceps.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#cabecalho {
+    background-color: var(--color-2);
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    height: 80px;
+    width: 100%;
+}
+
+#cabecalho .container {
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+    margin-left: 50px;
+}
+
+#cabecalho #icone {
+    width: 15.62rem;
+}
+
+#cabecalho #menu li {
+    display: inline-block;
+}
+
+#cabecalho #menu li a {
+    display: block;
+    padding: 25px 35px;
+    padding-top: 35px;
+    color: var(--color-6);
+    text-decoration: none;
+}
+
+#cabecalho #menu li a:hover {
+    color: var(--color-1);
+    transition: all 0.3s linear;
+}
+
+#cabecalho #menu li ul {
+    background-color: #000;
+    display: none;
+    position: absolute;
+}
+
+#cabecalho #menu li:hover ul {
+    display: block;
+    background-color: var(--color-8);
+}
+
+#cabecalho #menu li ul a:hover {
+    background-color: var(--color-8);
+}
+
+#cabecalho #menu li ul li {
+    display: block;
+    text-align: center;
+}
+
+#cabecalho .container #menu li ul a {
+    display: block;
+}
+
+#cabecalho .container ul{
+    font-family: Dark;
+}
+
+/* ===================INTRODUÇÃO===================== */
+
+#introducao {
+    display: block;
+    height: 1100px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+#introducao .container {
+    display: block;
+    margin: 0 auto;
+}
+
+#introducao #logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    padding-bottom: 40px;
+}
+
+#introducao p {
+    display: block;
+    font-size: 18px;
+    color: var(--color-6);
+    margin-top: 10px;
+    text-align: justify;
+}
+
+/* =======================VIDEO======================= */
+
+#video {
+    position: relative;
+    bottom: 100px;
+}
+
+#video .container iframe{
+    border: 1px solid white;
+}
+
+#video iframe {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    aspect-ratio: 16/9;
+}
+
+#video #titulo {
+    color: var(--color-6);
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 38px;
+}
+
+/* ----------------------INTERNAS-------------------- */
+
+#banners {
+    padding-top: 20px;
+}
+
+#banners h1 {
+    color: var(--color-6);
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 38px;
+}
+
+#conteudo_1 .container p{
+    color: var(--color-6);
+    font-size: 18px;
+    text-align: justify;
+    margin-top: 10px;
+    padding-bottom: 20px;
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Dark Souls Enciclopédia</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Enciclopédia Dark Souls">
+    <meta name="keywords" content="dark, souls, wiki, enciclopédia, enciclopedia">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="shortcut icon" href="../imagens/icone_aba.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="../plugins/jquery.bxslider.css">
+    <script src="../plugins/jquery.min.js"></script>
+    <script src="../plugins/jquery.bxslider.min.js"></script>
+
+    <script>
+        // PAINEL SLIDE
+        $(document).ready(function () {
+            $('.slider').bxSlider({
+                mode: 'horizontal',
+                // captions: true,
+                // slideWidth: 600,
+                auto: true,
+                pager: false,
+                // speed: 100
+                // controls: true
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <header id="cabecalho">
+        <div class="container">
+            <img src="../imagens/dark_souls_logo.png" id="icone">
+            <nav id="menu">
+                <ul>
+                    <li><a href="../index.html">Início</a></li>
+                    <li><a href="#">Personagens</a>
+                        <ul>
+                            <li><a href="../internas/solaire.html">Solaire</a></li>
+                            <li><a href="../internas/ornstein.html">Ornstein</a></li>
+                            <li><a href="#">Gwyn</a></li>
+                        </ul>
+                    </li>
+
+                    <li><a href="#">Locais</a>
+                        <ul>
+                            <li><a href="../internas/anorlondo.html">Anor Londo</a></li>
+                            <li><a href="../internas/firelink.html">Fire Link</a></li>
+                            <li><a href="../internas/ashlake.html">Ash Lake</a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="banners">
+        <div class="container">
+            <h1>Gwyn the Lord of Cinder</h1>
+            <ul class="slider">
+                <li><img src="../imagens/16-9/gwyn.png"></li> <!-- title="" -->
+                <li><img src="../imagens/16-9/gwyn2.png"></li>
+                <li><img src="../imagens/16-9/gwyn3.png"></li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="conteudo_1">
+        <div class="container">
+            <p>No alvorecer da Era do Fogo, Gwyn descobriu uma Alma de Lorde e assim se tornou o Lord of Sunlight ao lado de outros três Lordes.
+            Sua Alma de Lorde concedeu-lhe o poder do sol e do relâmpago, e Gwyn ajudou a derrotar os Dragões Eternos; seus "poderosos relâmpagos separaram suas escamas de pedra".</p>
+                
+            <p>Milhares de anos atrás, a Primeira Chama começou a desaparecer. A Bruxa de Izalith tentou recriar a primeira chama, mas falhou e a chama engoliu e corrompeu ela e a maioria de seus seguidores, criando a Cama do Caos e a Chama do Caos. Gwyn travou uma guerra contra os demônios em um ponto, mas a tentativa falhou.</p>
+                
+            <p>Gwyn também era conhecido por caçar dragões e wyverns mais tarde e tinha Quatro Cavaleiros. Os troféus de dragão podem ser encontrados nas paredes de Anor Londo.</p>
+                
+            <p>Ele legou partes de seu Lord Soul para os Four Kings of New Londo, e Seath the Scaleless - bem como um ducado para o último.</p>
+                
+            <p>Por fim, Gwyn deixou Anor Londo para viajar para o Forno da Primeira Chama para reacende-lo e, assim, prolongar a Era do Fogo. Ele trouxe metade de seus cavaleiros com ele, enquanto o resto ficou para trás para guardar Anor Londo. Depois de ligar com sucesso o fogo, a Primeira Chama queimou Gwyn e seus cavaleiros, reduzindo-o ao Senhor das Cinzas, embora sua alma permanecesse poderosa.</p>
+        </div>
+    </section>
+</body>
+
+</html>
