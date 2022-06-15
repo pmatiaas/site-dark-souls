@@ -156,6 +156,29 @@ body {
     font-size: 38px;
 }
 
+/* ------------------------RODAPÉ----------------------*/
+
+#rodape {
+	padding: 30px;
+	background-color: var(--color-4);
+    color: var(--color-6);
+}
+
+#rodape address {
+	font-style: normal;
+	text-align: center;
+	font-size: 15px;
+}
+
+#rodape address a{
+    text-decoration: none;
+    color: var(--color-6);
+}
+
+#rodape address a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
 /* ----------------------INTERNAS-------------------- */
 
 #banners {
